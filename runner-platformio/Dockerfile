@@ -10,7 +10,9 @@ RUN export DEBIAN_FRONTEND=noninteractive \
       python3-pip \
       python3-protobuf \
       protobuf-compiler \
-      cmake \
+      cmake  \
+      git \
+      gdb \
     && \
     pip3 install -U platformio \
     && echo "DONE" \
