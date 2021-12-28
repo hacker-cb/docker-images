@@ -12,6 +12,7 @@ jobs:
       matrix:
         project:
           - {folder: 'runner-platformio', image: 'runner-platformio'}
+          - {folder: 'bitrix-dev-php74-apache', image: 'bitrix-dev-php74-apache'}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
