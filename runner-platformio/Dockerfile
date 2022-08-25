@@ -14,5 +14,5 @@ RUN export DEBIAN_FRONTEND=noninteractive \
       git \
       gdb \
     && \
-    pip3 install -U platformio \
+    pip3 install -U platformio==6.1.4 \
     && echo "DONE" \
